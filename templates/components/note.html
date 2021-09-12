@@ -1,0 +1,17 @@
+
+<li class="card">
+    <form class="form-delete" method="post">
+        <input type="hidden" value="deletar" name="post" />
+        <input type="hidden" value="{id}" name="id" />
+        <button type="submit">x</button>
+    </form>
+    <div>
+        <form method="post">
+            <input type="hidden" value="editar" name="post" />
+            <input type="hidden" value="{id}" name="id" />
+            <textarea class="edit-title" name="newtitle">{title}</textarea>
+            <textarea class="edit-details" name="newdetails">{details}</textarea>
+            <button type="submit">confirmar edição</button>
+        </form>
+    </div>
+</li>
